@@ -1,13 +1,14 @@
 # tplink-plug-exporter
 
+![https://ci.wazong.de/repos/48](https://ci.wazong.de/api/badges/48/status.svg)
+
 Export TP-Link Smart Plug metrics to grafana dashboard
+Forked from fffonion/tplink-plug-exporter mainly to get multiarch builds into docker hub.
 
 ## Install
 
-Download from [releases](https://github.com/fffonion/tplink-plug-exporter/releases) or run from docker
-
 ```
-docker run -d -p 9233:9233 fffonion/tplink-plug-exporter
+docker run -d -p 9233:9233 dentaku/tplink-plug-exporter
 ```
 
 ### Usage
