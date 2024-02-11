@@ -6,4 +6,4 @@ pipeline:
       repo: dentaku/tplink-plug-exporter
       tag: latest
       auto-tag: true
-      platforms: [linux/amd64, linux/arm64]
+      platforms: [linux/amd64, linux/arm64, linux/arm/v7]
