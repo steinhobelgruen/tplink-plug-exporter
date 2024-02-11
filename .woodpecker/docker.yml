@@ -1,0 +1,9 @@
+pipeline:
+  docker-build:
+    secrets: [docker_username, docker_password]
+    image: woodpeckerci/plugin-docker-buildx
+    settings:
+      repo: dentaku/tplink-plug-exporter
+      tag: latest
+      auto-tag: true
+      platforms: [linux/amd64, linux/arm64]
